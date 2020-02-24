@@ -27,8 +27,8 @@ $data = array (
 $host = "https://api.bepaid.by/subscriptions";
 $process = curl_init($host);
 $json = json_encode($data);
-$shopId = 7424;
-$shopKey = '17bae829553053f812732037cbfa1ddddbef10561d868d0a0241aed57746cb89';
+$shopId = 746724;
+$shopKey = '';
 
 curl_setopt($process, CURLOPT_HTTPHEADER, array('Accept: application/json', 'Content-type: application/json'));
 curl_setopt($process, CURLOPT_POST, 1);
