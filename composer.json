@@ -1,0 +1,5 @@
+{
+    "require": {
+        "begateway/begateway-api-php": "^4.2"
+    }
+}
